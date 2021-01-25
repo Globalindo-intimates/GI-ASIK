@@ -95,6 +95,14 @@ $route['administrator/absensi_controller/(:any)'] = 'personal_absensi/$1';
 $route['administrator/hr_data'] = 'general_data/index';
 $route['administrator/hr_data/(:any)'] = 'general_data/$1';
 
+$route['administrator/emp_controller'] = 'total_emp/index';
+$route['administrator/emp_controller/(:any)'] = 'total_emp/$1';
+
+$route['administrator/detail_dprt_controller'] = 'department_detail/index';
+$route['administrator/detail_dprt_controller/(:any)'] = 'department_detail/$1';
+
+$route['administrator/sewing_controller'] = 'sewing_dprt/index';
+$route['administrator/sewing_controller/(:any)'] = 'sewing_dprt/$1';
 /* 
 * 
 * routes manager

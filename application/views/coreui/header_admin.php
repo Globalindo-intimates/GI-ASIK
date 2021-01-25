@@ -30,7 +30,7 @@
                 <a class="nav-link navbar-toggler sidebar-toggler" href="#" style="color:white;">☰</a>
             </li>
             <li class="nav-item px-3">
-                <a class="nav-link" href="#" style="color:white;">Dashboard</a>
+                <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/detail_personal/detail_personal" style="color:white;">Dashboard</a>
             </li>
         </ul>
         <ul class="nav navbar-nav ml-auto">
@@ -62,7 +62,7 @@
                         <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/detail_personal/detail_personal"><i class="icon-folder-alt"></i> Personal Data</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="icon-folder-alt"></i> General Data</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/hr_data/hr_data"><i class="icon-folder-alt"></i> General Data</a>
                     </li>
                     <li class="nav-item nav-dropdown">
                         <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-notebook"></i> User Management</a>

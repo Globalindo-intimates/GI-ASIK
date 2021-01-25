@@ -4,14 +4,14 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-header">
-                        <i class="fa fa-align-justify"></i> Globalindo Intimates - Personil Data
+                        <i class="fa fa-align-justify"></i> Personal Data
                     </div>
                     <div class="card-body">
                         <div class="row" style="margin-bottom: 50px;">
                             <img src="#">
                         </div>
                         <div class="row">
-                            <table class="table">
+                            <table class="table table-bordered">
                                 <tr>
                                     <th scope="col">Name</th>
                                     <td>Mark</td>
@@ -89,6 +89,9 @@
                                     <td>Mark</td>
                                 </tr>
                             </table>
+                            <div class="btn btn-info">
+                                <a href="<?php echo base_url(); ?>index.php/administrator/absensi_controller/absensi_controller">Absentaism Data</a>
+                            </div>
                         </div>
                     </div>
                 </div>

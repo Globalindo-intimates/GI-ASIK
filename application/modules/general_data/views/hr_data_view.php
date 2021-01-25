@@ -10,9 +10,9 @@
                         <p style="margin-bottom: 20px;">Current Date</p>
 
                         <div class="row">
-                            <table class="table">
+                            <table class="table table-bordered">
                                 <tr>
-                                    <th scope="col"><a href="#">Total Employee</a></th>
+                                    <th scope="col"><a href="<?php echo base_url();?>index.php/administrator/emp_controller/emp_controller">Total Employee</a></th>
                                     <th scope="col">Male</th>
                                     <th scope="col">Female</th>
                                 </tr>
@@ -21,8 +21,6 @@
                                     <td>Mark</td>
                                     <td>Mark</td>
                                 </tr>
-                            </table>
-                            <table class="table">
                                 <tr>
                                     <th scope="col"><a href="#">Absentaism</a></th>
                                     <th scope="col">Male</th>
@@ -33,8 +31,6 @@
                                     <td>Mark</td>
                                     <td>Mark</td>
                                 </tr>
-                            </table>
-                            <table class="table">
                                 <tr>
                                     <th scope="col"><a href="#">Late Coming</a></th>
                                     <th scope="col">Male</th>
