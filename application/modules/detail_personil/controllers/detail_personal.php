@@ -6,7 +6,7 @@
  * www.crudigniter.com
  */
  
-class detail_personil extends MX_Controller{
+class detail_personal extends MX_Controller{
     function __construct()
     {
         parent::__construct();

@@ -15,7 +15,7 @@
                                     <span class="text-danger"><?php echo form_error('nik');?></span>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="<?php echo base_url();?>index.php/administrator/detail_personal"><"class="btn btn-success">Search</a> 
+                                    <a href="<?php echo base_url();?>index.php/administrator/detail_personal/detail_personal"><"class="btn btn-success">Search</a> 
                                 </div>
                             </div>
                         </div>

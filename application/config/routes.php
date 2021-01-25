@@ -87,6 +87,7 @@ $route['administrator/personil/(:any)/(:any)'] = 'admin_personal_data/$1/$s2';
 $route['administrator/personil/(:any)/(:any)/(:any)'] = 'admin_personal_data/$1/$s2/$3';
 
 $route['administrator/detail_personal'] = 'detail_personil/index';
+$route['administrator/detail_personal/(:any)'] = 'detail_personil/$1';
 /* 
 * 
 * routes manager
