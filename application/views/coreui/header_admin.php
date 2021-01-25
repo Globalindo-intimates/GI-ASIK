@@ -59,7 +59,7 @@
                         Contents
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="icon-folder-alt"></i> Personal Data</a>
+                        <a class="nav-link" href="<?php echo base_url();?>index.php/administrator/personil/personil"><i class="icon-folder-alt"></i> Personal Data</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="icon-folder-alt"></i> General Data</a>

@@ -60,46 +60,6 @@ $route['translate_uri_dashes'] = FALSE;
 *
 */
 
-// screen sewing LT.1
-$route['sewing/Lt1/ScreenA'] = 'admin_sewing_screen_1/viewScreenA';
-$route['sewing/Lt1/ScreenA/(:any)'] = 'admin_sewing_screen_1/$1';
-
-$route['sewing/Lt1/ScreenB'] = 'admin_sewing_screen_1/viewScreenB';
-$route['sewing/Lt1/ScreenB/(:any)'] = 'admin_sewing_screen_1/$1';
-
-$route['sewing/Lt1/ScreenC'] = 'admin_sewing_screen_1/viewScreenC';
-$route['sewing/Lt1/ScreenC/(:any)'] = 'admin_sewing_screen_1/$1';
-
-// screen sewing LT.2
-$route['sewing/Lt2/ScreenA'] = 'admin_sewing_screen_2/viewScreenA';
-$route['sewing/Lt2/ScreenA/(:any)'] = 'admin_sewing_screen_2/$1';
-
-$route['sewing/Lt2/ScreenB'] = 'admin_sewing_screen_2/viewScreenB';
-$route['sewing/Lt2/ScreenB/(:any)'] = 'admin_sewing_screen_2/$1';
-
-$route['sewing/Lt2/ScreenC'] = 'admin_sewing_screen_2/viewScreenC';
-$route['sewing/Lt2/ScreenC/(:any)'] = 'admin_sewing_screen_2/$1';
-
-// screen sewing LT.3
-$route['sewing/Lt3/ScreenA'] = 'admin_sewing_screen_3/viewScreenA';
-$route['sewing/Lt3/ScreenA/(:any)'] = 'admin_sewing_screen_3/$1';
-
-$route['sewing/Lt3/ScreenB'] = 'admin_sewing_screen_3/viewScreenB';
-$route['sewing/Lt3/ScreenB/(:any)'] = 'admin_sewing_screen_3/$1';
-
-$route['sewing/Lt3/ScreenC'] = 'admin_sewing_screen_3/viewScreenC';
-$route['sewing/Lt3/ScreenC/(:any)'] = 'admin_sewing_screen_3/$1';
-
-//screen cutting
-$route['cutting/Trimstore'] = 'admin_cutting/viewScreanA';
-$route['cutting/Trimstore/(:any)'] = 'admin_cutting/$1';  
-
-// screan cutting wip
-$route['cutting/Wip'] = 'admin_cutting/viewScreanB';
-$route['cutting/Wip/(:any)'] = 'admin_cutting/$1'; 
-
-// $route['cutting/Wip'] = 'admin_cutting/viewScreanA';
-// $route['cutting/Wip/(:any)'] = 'admin_cutting/$1'; 
  
 //screen molding
 $route['cutting/Molding'] = 'admin_molding/index';
@@ -115,60 +75,17 @@ $route['cutting/Molding'] = 'admin_molding/index';
 $route['administrator/user'] = 'user/index';
 $route['administrator/user/(:any)'] = 'user/$1';
 
-$route['administrator/area'] = 'admin_area/index';
-$route['administrator/area/(:any)'] = 'admin_area/$1';
-$route['administrator/area/(:any)/(:any)'] = 'admin_area/$1/$2';
-$route['administrator/area/(:any)/(:any)/(:any)'] = 'admin_area/$1/$2/$3';
-
-$route['administrator/screen'] = 'admin_screen/index';
-$route['administrator/screen/(:any)'] = 'admin_screen/$1';
-$route['administrator/screen/(:any)/(:any)'] = 'admin_screen/$1/$2';
-$route['administrator/screen/(:any)/(:any)/(:any)'] = 'admin_screen/$1/$2/$3';
-
-// videos
-$route['administrator/videos'] = 'admin_videos/index';
-$route['administrator/videos/(:any)'] = 'admin_videos/$1';
-$route['administrator/videos/(:any)/(:any)'] = 'admin_videos/$1/$2';
-$route['administrator/videos/(:any)/(:any)/(:any)'] = 'admin_videos/$1/$2/$3';
-
-// line
-$route['administrator/lines'] = 'admin_line/index';
-$route['administrator/lines/(:any)'] = 'admin_line/$1';
-$route['administrator/lines/(:any)/(:any)'] = 'admin_line/$1/$2';
-$route['administrator/lines/(:any)/(:any)/(:any)'] = 'admin_line/$1/$2/$3';
-
-// deffect
-$route['administrator/deffects'] = 'admin_deffect/index';
-$route['administrator/deffects/(:any)'] = 'admin_deffect/$1';
-$route['administrator/deffects/(:any)/(:any)'] = 'admin_deffect/$1/$2';
-$route['administrator/deffects/(:any)/(:any)/(:any)'] = 'admin_deffect/$1/$2/$3';
-
-// messages 
-$route['administrator/messages'] = 'messages/index';
-$route['administrator/messages/(:any)'] = 'messages/$1';
-$route['administrator/messages/(:any)/(:any)'] = 'messages/$1/$2';
-$route['administrator/messages/(:any)/(:any)/(:any)'] = 'messages/$1/$2/$3';
-
-// screen live
-$route['administrator/screenLive'] = 'screen_line_admin/index';
-$route['administrator/screenLive/(:any)'] = 'screen_line_admin/$1';
-$route['administrator/screenLive/(:any)/(:any)'] = 'screen_line_admin/$1/$2';
-$route['administrator/screenLive/(:any)/(:any)/(:any)'] = 'screen_line_admin/$1/$2/$3';
-
-
-// sett. screen line live
-$route['administrator/setScreenLineLive'] = 'admin_sett_screen_line/index';
-$route['administrator/setScreenLineLive/(:any)'] = 'admin_sett_screen_line/$1';
-$route['administrator/setScreenLineLive/(:any)/(:any)'] = 'admin_sett_screen_line/$1/$2';
-$route['administrator/setScreenLineLive/(:any)/(:any)/(:any)'] = 'admin_sett_screen_line/$1/$2/$3';
-
 /* 
 * 
-* routes operator / Line
+* routes prsonil data
+
 *
 */
-$route['operator/screenLine'] = 'screen_line/index';
-$route['operator/screenLine/(:any)'] = 'screen_line/$1';
+$route['administrator/personil'] = 'admin_personal_data/index';
+$route['administrator/personil/(:any)'] = 'admin_personal_data/$1';
+$route['administrator/personil/(:any)/(:any)'] = 'admin_personal_data/$1/$s2';
+$route['administrator/personil/(:any)/(:any)/(:any)'] = 'admin_personal_data/$1/$s2/$3';
+
 
 /* 
 * 
@@ -182,11 +99,7 @@ $route['manager/messages/(:any)'] = 'messages/$1';
 $route['manager/messages/(:any)/(:any)'] = 'messages/$1/$2';
 $route['manager/messages/(:any)/(:any)/(:any)'] = 'messages/$1/$2/$3';
 
-// screen live
-$route['manager/screenLive'] = 'screen_line_manager/index';
-$route['manager/screenLive/(:any)'] = 'screen_line_manager/$1';
-$route['manager/screenLive/(:any)/(:any)'] = 'screen_line_manager/$1/$2';
-$route['manager/screenLive/(:any)/(:any)/(:any)'] = 'screen_line_manager/$1/$2/$3';
+
 
 
 $route['pages/(:any)'] = 'pages/index/$1';

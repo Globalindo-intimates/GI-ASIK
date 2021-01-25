@@ -4,7 +4,7 @@
     </div>
 
     <footer class="app-footer">
-        <a href="#">medan</a> © 2020 MIS - Pt.Globalindo.
+        <a href="#">ASIK</a> © 2021 MIS - Pt.Globalindo.
         <span class="float-right">Powered by <a href="#">Pt.Globalindo</a>
         </span>
     </footer>

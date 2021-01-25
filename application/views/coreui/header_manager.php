@@ -8,7 +8,7 @@
     <meta name="author" content="www.heriipurnama.ga">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
     <link rel="shortcut icon" href="<?php echo TEMPLATE_ASSETS;?>img/chart.png">
-    <title>medan</title>
+    <title>ASIK</title>
     
     <!-- Icons -->
     <link href="<?php echo TEMPLATE_ASSETS;?>css/font-awesome.min.css" rel="stylesheet">
