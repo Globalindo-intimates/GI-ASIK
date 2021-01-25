@@ -11,7 +11,7 @@ class User_model extends CI_Model
         $this->load->library('session');
         $data =   $this->session->all_userdata(); 
         $rst = "SELECT
-                    dvc0004.NIK AS NIK,
+                    dvc0004.NIK AS nik,
                     emp0003.`Name` AS `Name`,
                     LEFT((`dvc0004`.`Enroll`),10) AS tgl,
                     emp0001.DepartmentDesc,

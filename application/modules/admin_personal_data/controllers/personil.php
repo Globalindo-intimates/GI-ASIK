@@ -38,6 +38,11 @@ class personil extends MX_Controller{
         $data['content'] = $this->load->view('admin_personal_data/personal_view',$data,true);
         $this->parser->parse(TEMPLATE.'/content_admin', $data);
     }
+    function getDataNik(){
+        $data = $this->personil_model->getDataAbsensi();
+        $datas = json_encode($data);
+        echo $datas;
+    }
 
     
     
