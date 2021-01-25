@@ -14,6 +14,8 @@
     <link href="<?php echo TEMPLATE_ASSETS;?>css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo TEMPLATE_ASSETS;?>css/simple-line-icons.css" rel="stylesheet">
 
+    <link href="<?php echo TEMPLATE_ASSETS;?>css/select2.min.css" rel="stylesheet">
+
     <!-- Main styles for this application -->
     <link href="<?php echo TEMPLATE_ASSETS;?>css/style.css" rel="stylesheet">
     <script src="<?php echo TEMPLATE_ASSETS;?>js/jquery.min331.js"></script>
@@ -27,5 +29,8 @@
     <script src="<?php echo TEMPLATE_ASSETS;?>bower_components/echarts/dist/echartsV2.min.js"></script>
     <script src="<?php echo TEMPLATE_ASSETS;?>bower_components/chart.js/dist/Chart.js"></script>
     <script src="<?php echo TEMPLATE_ASSETS;?>bower_components/chart.js/dist/Chart.min.js"></script>
+
+    <script src="<?php echo TEMPLATE_ASSETS;?>js/select2.full.min.js"></script>
+
   
 </head>
