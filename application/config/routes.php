@@ -86,8 +86,15 @@ $route['administrator/personil/(:any)'] = 'admin_personal_data/$1';
 $route['administrator/personil/(:any)/(:any)'] = 'admin_personal_data/$1/$s2';
 $route['administrator/personil/(:any)/(:any)/(:any)'] = 'admin_personal_data/$1/$s2/$3';
 
-$route['administrator/detail_personal'] = 'detail_personil/index';
+$route['administrator/detail_personal'] = ' detail_personil/index';
 $route['administrator/detail_personal/(:any)'] = 'detail_personil/$1';
+
+$route['administrator/absensi_controller'] = 'personal_absensi/index';
+$route['administrator/absensi_controller/(:any)'] = 'personal_absensi/$1';
+
+$route['administrator/hr_data'] = 'general_data/index';
+$route['administrator/hr_data/(:any)'] = 'general_data/$1';
+
 /* 
 * 
 * routes manager

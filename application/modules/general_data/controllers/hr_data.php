@@ -6,7 +6,7 @@
  * www.crudigniter.com
  */
  
-class detail_personal extends MX_Controller{
+class hr_data extends MX_Controller{
     function __construct()
     {
         parent::__construct();
@@ -35,7 +35,7 @@ class detail_personal extends MX_Controller{
 
         // $data['user'] = $this->User_model->get_all_G_USERS($params);
          $data = array();
-        $data['content'] = $this->load->view('detail_personil/detail_personal_view',$data,true);
+        $data['content'] = $this->load->view('general_data/hr_data_view',$data,true);
         $this->parser->parse(TEMPLATE.'/content_admin', $data);
     }
     function getDataNik(){
